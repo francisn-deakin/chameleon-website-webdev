@@ -9,6 +9,7 @@
         <v-btn v-bind:to="'/'">
           <span class="mr-2">Top</span>
         </v-btn>
+        <router-link to="/about">About Us</router-link>
         <v-btn v-bind:to="'/login'"
           v-if="!$store.state.isUserLoggedIn"
         >
