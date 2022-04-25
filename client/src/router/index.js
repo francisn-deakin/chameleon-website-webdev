@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import TopPage from '@/components/TopPage'
 import Register from '@/components/Register'
 import Login from '@/components/Login'
-
+import Portfolio from '@/components/Portfolio'
 Vue.use(Router)
 
 export default new Router({
@@ -13,6 +13,11 @@ export default new Router({
       path: '/',
       name: 'TopPage',
       component: TopPage
+    },
+    {
+      path: '/Portfolio',
+      name: 'Portfolio',
+      component: Portfolio
     },
     {
       path: '/register',
